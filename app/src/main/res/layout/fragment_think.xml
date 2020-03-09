@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.ThinkFragment">
+
+    <EditText
+        android:textColor="#000000"
+        android:id="@+id/thoughtBody"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:padding="16dp"
+        android:background="@null"
+        android:gravity="start|top"
+        android:hint="@string/placeholder_think_field"
+        android:inputType="textMultiLine"
+        />
+
+    <Button
+        android:id="@+id/thinkThoughtButton"
+        android:layout_weight="0.000015"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post"
+    />
+
+</LinearLayout>

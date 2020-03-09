@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Scroller</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="placeholder_think_field">What are you thinking about?</string>
+    <string name="coming_soon_stat_message">Coming Soon</string>
+    <string name="menu_title_statistics">Statistics</string>
+    <string name="menu_title_think">Think</string>
+    <string name="menu_title_home">Home</string>
+
+</resources>
